@@ -31,13 +31,13 @@ top 10 (max) matching filenames in rank order, giving the rank score against eac
 **Note:** treat the above as an outline spec; you don’t need to exactly reproduce the above
 output. Don’t spend too much time on input handling, just assume sane input.
 
-#####Ranking
+##### Ranking
 * The rank score must be 100% if a file contains all the words
 * It must be 0% if it contains none of the words
 * It should be between 0 and 100 if it contains only some of the words but the exact
 ranking formula is up to you to choose and implement
 
-#####Things to consider in your implementation
+##### Things to consider in your implementation
 * What constitutes a word
 * What constitutes two words being equal (and matching)
 * Data structure design: the in memory representation to search against
@@ -58,7 +58,7 @@ If the project is already packaged, the following command will be needed:
 ```
 mvn clean
 ```
-#####Using IntelliJ
+##### Using IntelliJ
 Same procedure but using IntelliJ's UI.
 
 ![img.png](readme_images/img.png)
@@ -74,7 +74,7 @@ The package phase creates two JAR files:
 In the next steps we will be working with *SimpleSearch-1.0.0-jar-with-dependencies.jar:* for simplicity.
 
 
-###Run
+### Run
 *runSimpleSearch.sh* has been prepared to simplify the project execution:
 
 It can be done in the following way:
