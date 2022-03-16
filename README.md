@@ -65,6 +65,7 @@ Same procedure but using IntelliJ's UI.
 
 
 In both cases, two JAR files will be generated inside *Target* folder.
+
 ![img_1.png](readme_images/img_1.png)
 
 The package phase creates two JAR files:
